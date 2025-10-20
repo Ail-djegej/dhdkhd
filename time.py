@@ -3,7 +3,7 @@ import os
 import time
 
 # هذا هو IDك فقط
-ALLOWED_IDS = [7272808519,7272808518]
+ALLOWED_IDS = [7272808519]
 
 def main():
     try:
@@ -16,8 +16,8 @@ def main():
         print("\n✅ تم التحقق بنجاح، يمكنك استخدام الأداة الآن.\n");time.sleep(2)
         # ضع هنا كود أداتك الحقيقي
     else:
-        print("❌ انت غير مشترك في الأداة.")
-        sys.exit();time.sleep(1000000000)
+        print("\n❌ انت غير مشترك في الأداة.")
+        sys.exit();print('\n\n[Program finished]');time.sleep(1000000000)
 
 if __name__ == "__main__":
     main()
