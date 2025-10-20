@@ -3,7 +3,7 @@ import os
 import time
 
 # هذا هو IDك فقط
-ALLOWED_IDS = [7272808519,5088403034]
+ALLOWED_IDS = [7272808519,5088403034,6145336551]
 
 def main():
     try:
